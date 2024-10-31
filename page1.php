@@ -26,7 +26,7 @@ if (isset($_POST["logout"]))
 <div class="A">
     <h1 class="display-4">Hello,<?php echo($_SESSION["name"]); ?> !</h1>
     <p class="lead">WELCOME TO MY SITE WEB.</p>
-    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a>
+    <a class="btn btn-primary btn-lg" href="page2.php" role="button">Learn more »</a>
 </div>
 </body>
 </html>
